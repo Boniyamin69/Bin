@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Yamin-69-Bin</title>
+  <style>
+   
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #000000, #2a1d2e);
+    }
+    .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19vh;}
+    img {
+    width: 140px;
+    height: auto;
+  }
+    .menu-container {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+      background-color: #1a131d;
+    }
+
+    .menu-button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      margin: 10px;
+      font-size: 18px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu-button:hover {
+      background-color: #666;
+    }
+
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+      padding: 0 20px;
+    }
+
+    .app {
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      background-color: #1a131d;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+      transition: transform 0.3s ease;
+      text-decoration: none;
+    }
+
+    .app:hover {
+      transform: scale(1.05);
+    }
+
+    .app-title {
+      font-size: 24px;
+      color: #ff0000;
+      margin-bottom: 10px;
+    }
+
+    .app-description {
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .download-button {
+      padding: 10px 15px;
+      font-size: 15px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .download-button:hover {
+      background-color: #666;
+    }
+
+    .drawer-container {
+      position: fixed;
+      top: 0;
+      left: -250px;
+      height: 100%;
+      width: 250px;
+      background-color: #1a131d;
+      color: #fff;
+      transition: left 0.3s ease;
+    }
+
+    .drawer-open {
+      left: 0;
+    }
+
+    .drawer-toggle {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      padding: 10px;
+      font-size: 24px;
+      background-color: #1a131d;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .drawer-menu {
+      padding: 20px;
+    }
+
+    .drawer-menu a {
+      margin-top: 50px;
+      display: block;
+      margin-bottom: 10px;
+      color: #fff;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .drawer-menu a:hover {
+      background-color: #666;
+    }
+   
+  </style>
+</head>
+<body>
+  <div class="drawer-container" id="drawer">
+    <div class="drawer-menu">
+      <a href="https://t.me/Boniyamin69" class="menu-button">TG</a>
+    </div>
+  </div>
+  <div class="center">
+  <img src="https://teampeaky.xyz/logo.png" alt="Logo">
+  </div>
+  <div class="menu-container">
+    <div class="drawer-toggle" onclick="toggleDrawer()">&#9776;</div>
+  </div>
+  <div class="main" id="app-container">
+
+    <a href="https://teampeaky.xyz/gen/" class="app">
+      <h3 class="app-title">YAMIN BIN GEN</h3>
+     
+    </a>
+
+    <a href="https://teampeaky.xyz/bin_check/" class="app">
+      <h3 class="app-title">YAMIN BIN CHECKER</h3>
+     
+    </a>
+
+    <a href="https://teampeaky.xyz/bin/" class="app">
+      <h3 class="app-title">YAMIN CC GEN</h3>
+     
+    </a>
+    <a href="https://teampeaky.xyz/live/" class="app">
+      <h3 class="app-title">FB LIVE CHECKER</h3>
+     
+    </a>
+    <a href="https://teampeaky.xyz/uax" class="app">
+      <h3 class="app-title">UA GENARATOR</h3>
+    </a>
+    <a href="https://teampeaky.xyz/ip_info/" class="app">
+      <h3 class="app-title">YOUR IP INFO </h3>
+    </a>
+    <a href="https://teampeaky.xyz/ip_find/" class="app">
+      <h3 class="app-title">FIND IP INFO</h3>
+    </a>
+    <a href="https://teampeaky.xyz/font/" class="app">
+      <h3 class="app-title">FANCY FONT</h3>
+    </a>
+    <a href="https://teampeaky.xyz/binary/" class="app">
+      <h3 class="app-title">BINARY CONVERTER</h3>
+    </a>
+    <a href="https://teampeaky.xyz/extract/" class="app">
+      <h3 class="app-title">LINK EXTRACT</h3>
+    </a>
+  </div>
+  <script>
+    function toggleDrawer() {
+      const drawer = document.getElementById("drawer");
+      drawer.classList.toggle("drawer-open");
+    }
+  </script>
+</body>
+</html>
